@@ -1,0 +1,350 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* font-family: 'Raleway', sans-serif; */
+
+  font-family: 'Roboto', sans-serif;
+
+  /* font-family: 'Roboto Condensed', sans-serif; */
+}
+
+.link {
+  color: #c60018;
+}
+
+.link:hover {
+  color: #fff;
+  background-color: #c60018;
+  padding: 3px 12px;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.header img {
+  width: 25%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.72) !important;
+  border-bottom: 2px solid #fff;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #c60018 !important;
+  border-bottom: 2px solid #c60018;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.carousel-caption {
+  top: 30%;
+  left: 60% !important;
+  color: #fff !important   ;
+}
+
+.carousel-caption h1 {
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.carousel-caption a {
+  font-size: 12px;
+  color: #1c1c1ce6;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 10px 40px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.carousel-caption a:hover {
+  background-color: #c60018;
+  color: #fff;
+  transition: 0.4s;
+}
+
+/* -------slider end-------- */
+
+.variety-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.variety-h1 {
+  text-align: end;
+  padding-left: 17%;
+  padding-right: 2%;
+  border-right: 1px solid #c60018;
+}
+
+.variety-heading h1 {
+  font-weight: 700;
+}
+
+.variety-heading h2 {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.variety-para {
+  padding-right: 37%;
+}
+
+.variety-para p {
+  padding-top: 25%;
+  color: #c60018;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+.variety-box img {
+  margin-bottom: 2rem;
+}
+
+.date {
+  color: #c60018;
+  margin-bottom: 0.2px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.variety-box h4 {
+  font-weight: 600;
+}
+
+.variety-box a {
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.info {
+  font-size: 13px;
+}
+
+/* --------------variety----------- */
+
+.gearhead-heading {
+  padding-top: 8%;
+}
+
+.gearhead-para {
+  color: #c60018;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+.gearhead-heading h1 {
+  font-weight: 700;
+}
+
+.gearhead-heading h2 {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.gearhead-heading p {
+  width: 80%;
+  font-size: 12px;
+}
+
+.gearhead-heading a {
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sea-bg {
+  background: url(/assets/img/bg-img-1.png) no-repeat;
+  background-attachment: inherit;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+.sea-text p {
+  color: #c60018;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+.sea-text h1 {
+  font-weight: 700;
+  color: #fff;
+}
+
+.sea-text {
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+}
+
+/* --------------------sea bg end ------------- */
+
+.sub-brand {
+  background-color: #e2dede;
+  margin-bottom: 5rem;
+}
+
+.sub-img img {
+  width: 35%;
+}
+
+.bike img {
+  width: 40%;
+}
+
+.ultrex img {
+  width: 50%;
+  padding-top: 15%;
+}
+
+/* ------------sub brand--------------- */
+
+.feature-img img {
+  width: 75%;
+  margin-left: 50px;
+}
+
+.info h5 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* ------------------end sub brand--------- */
+
+.bg-2 {
+  background: url(/assets/img/bg-img-2.png);
+  background-attachment: inherit;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+.bg-2-text p {
+  color: #c60018;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+.bg-2-text h1 {
+  font-weight: 700;
+  color: #fff;
+}
+
+.bg-2-text {
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+}
+
+/* ----------------crusier-bike------------ */
+
+.cruiser-bike {
+  margin-bottom: 1rem;
+}
+
+.cruiser-bike-img {
+  margin-top: -23%;
+}
+
+.cruiser-bike-img img {
+  width: 50%;
+}
+/* ----------------cruiser bike end ----------- */
+
+.helmet {
+  background-color: #e2dede;
+}
+
+.helmet-heading {
+  padding-top: 8%;
+}
+
+.helmet-para {
+  color: #c60018;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+.helmet-heading h1 {
+  font-weight: 700;
+}
+
+.helmet-heading h2 {
+  font-size: 2.8rem;
+  font-weight: 100;
+}
+
+.helmet-heading p {
+  font-size: 12px;
+}
+
+.helmet-heading a {
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.small-helmet-img {
+  padding-top: 45%;
+}
+
+.helmet-img img {
+  width: 85%;
+}
+
+.footer {
+  background-color: #1c1c1c;
+}
+
+.footer h5 {
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer p {
+  color: #fff;
+  font-weight: 100;
+}
+
+.description p {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.services h5 {
+  margin-left: 2rem;
+}
+
+.services ul li a {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #1c1c1c;
+  display: block;
+}
+
+.services ul li a:hover {
+  color: #c60018;
+}
+
+.address p {
+  font-size: 15px;
+}
